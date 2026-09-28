@@ -1,0 +1,663 @@
+# Fonte única do awesome-mcp-brasil.
+# O README.md é GERADO a partir deste arquivo por scripts/build_readme.py — não edite o README na mão.
+#
+# Campos de cada servidor:
+#   nome              nome curto (como aparece na tabela)
+#   repo              owner/repo no GitHub (opcional para guias/sites)
+#   url               link canônico (GitHub, docs ou artigo)
+#   descricao         1 linha em pt-BR
+#   categoria         id de uma das categorias abaixo
+#   pacote            npm | pypi | oci | mcpb | remoto | git   (string ou lista) — "remoto" = servidor hospedado (HTTP/SSE), "git" = só clonar
+#   exige_chave       sim | nao  — precisa de conta, token, certificado ou pagamento para funcionar?
+#   registro_oficial  sim | nao  — está em registry.modelcontextprotocol.io?
+#   registro_nome     nome no registro oficial (opcional, ex.: io.github.owner/repo)
+#   tipo              servidor (padrão) | skill | guia
+
+categorias:
+  - id: dados-publicos
+    nome: Dados públicos
+    descricao: CNPJ, CEP, IBGE, Banco Central, feriados, B3 e outras APIs abertas do Brasil.
+  - id: fiscal
+    nome: Fiscal / Tributário
+    descricao: NF-e, NFS-e, SPED, Simples Nacional, Reforma Tributária (IBS/CBS).
+  - id: juridico
+    nome: Jurídico / Legislativo
+    descricao: Câmara, Senado, DataJud/CNJ, tribunais, LexML, jurisprudência.
+  - id: comercio-saas
+    nome: Comércio & SaaS BR
+    descricao: ERPs, e-commerce, marketplaces e plataformas brasileiras (Hotmart, Conta Azul, Bling, Omie, Mercado Livre…).
+  - id: pagamentos
+    nome: Pagamentos (Pix)
+    descricao: Pix, boleto, Open Finance, gateways e bancos brasileiros.
+  - id: governo
+    nome: Eleições / Governo
+    descricao: TSE, Portal da Transparência, PNCP (licitações), diários oficiais.
+  - id: skills
+    nome: Skills & prompts BR
+    descricao: Skills de agente (Claude Code, Cursor) e plugins em português ou para plataformas brasileiras.
+  - id: guias
+    nome: Guias em português
+    descricao: Documentação, artigos e tutoriais sobre MCP em pt-BR.
+
+servidores:
+  # ───────────────────────── Dados públicos ─────────────────────────
+  - nome: mcp-brasil
+    repo: Mcp-Brasil/mcp-brasil
+    url: https://github.com/Mcp-Brasil/mcp-brasil
+    descricao: Servidor MCP para 70 APIs públicas brasileiras (governo, IBGE, BCB, CNPJ, CEP e mais) em um só pacote.
+    categoria: dados-publicos
+    pacote: pypi
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: brasil-data-mcp
+    repo: alanpcf/brasil-data-mcp
+    url: https://github.com/alanpcf/brasil-data-mcp
+    descricao: CNPJ, CEP, bancos, feriados, DDD, ISBN, Selic e câmbio via BrasilAPI, sem chave.
+    categoria: dados-publicos
+    pacote: npm
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-dadosbr
+    repo: cristianoaredes/mcp-dadosbr
+    url: https://github.com/cristianoaredes/mcp-dadosbr
+    descricao: Consulta de empresas (CNPJ) e endereços (CEP) para Claude Desktop, Cursor, Windsurf e Continue.
+    categoria: dados-publicos
+    pacote: npm
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-dados-br
+    repo: lucianoon/mcp-dados-br
+    url: https://github.com/lucianoon/mcp-dados-br
+    descricao: IBGE, Banco Central, INMET, Câmara dos Deputados e Senado Federal em um único servidor Python.
+    categoria: dados-publicos
+    pacote: [pypi, oci]
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: ibge-br-mcp
+    repo: SidneyBissoli/ibge-br-mcp
+    url: https://github.com/SidneyBissoli/ibge-br-mcp
+    descricao: APIs do IBGE (localidades, SIDRA, censo, nomes) — dados geográficos, demográficos e estatísticos.
+    categoria: dados-publicos
+    pacote: npm
+    exige_chave: nao
+    registro_oficial: sim
+    registro_nome: io.github.SidneyBissoli/ibge-br-mcp
+
+  - nome: bcb-br-mcp
+    repo: SidneyBissoli/bcb-br-mcp
+    url: https://github.com/SidneyBissoli/bcb-br-mcp
+    descricao: Banco Central do Brasil — Selic, IPCA, câmbio, PIB e séries do SGS para agentes de IA.
+    categoria: dados-publicos
+    pacote: npm
+    exige_chave: nao
+    registro_oficial: sim
+    registro_nome: io.github.SidneyBissoli/bcb-br-mcp
+
+  - nome: sih-br-mcp
+    repo: SidneyBissoli/sih-br-mcp
+    url: https://github.com/SidneyBissoli/sih-br-mcp
+    descricao: DATASUS SIH/SUS — internações hospitalares (AIH, 1992–2025) por causa CID-10, série mensal e ICSAP.
+    categoria: dados-publicos
+    pacote: npm
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: open-economics
+    repo: felipegambettadesouza6-jpg/open-economics
+    url: https://github.com/felipegambettadesouza6-jpg/open-economics
+    descricao: API e servidor MCP sem autenticação com dados econômicos oficiais (BCB, IBGE, Tesouro, MTE, ANP).
+    categoria: dados-publicos
+    pacote: [npm, remoto]
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: OpenFinData
+    repo: robertoecf/OpenFinData
+    url: https://github.com/robertoecf/OpenFinData
+    descricao: Dados financeiros públicos do Brasil (BCB, B3, CVM, Tesouro, ANBIMA, SUSEP) via REST, MCP e CLI.
+    categoria: dados-publicos
+    pacote: pypi
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-brasil-api
+    repo: lucianfialho/mcp-brasil-api
+    url: https://github.com/lucianfialho/mcp-brasil-api
+    descricao: Wrapper MCP da BrasilAPI em Python (CEP, CNPJ, bancos, feriados, FIPE).
+    categoria: dados-publicos
+    pacote: pypi
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: brazilian-dev-mcp
+    repo: dan94k/brazilian-dev-mcp
+    url: https://github.com/dan94k/brazilian-dev-mcp
+    descricao: Utilitários para devs brasileiros — validação e geração de CPF/CNPJ, CEP, telefone, moeda e dados fake.
+    categoria: dados-publicos
+    pacote: npm
+    exige_chave: nao
+    registro_oficial: sim
+    registro_nome: io.github.dan94k/brazilian-dev-mcp
+
+  - nome: mcp-cnpj-br
+    repo: pipeworx-io/mcp-cnpj-br
+    url: https://github.com/pipeworx-io/mcp-cnpj-br
+    descricao: Consulta ao cadastro de CNPJ da Receita Federal, sem chave.
+    categoria: dados-publicos
+    pacote: npm
+    exige_chave: nao
+    registro_oficial: sim
+    registro_nome: io.github.pipeworx-io/cnpj-br
+
+  - nome: essentials (brasil-mcp)
+    repo: brasil-mcp/essentials
+    url: https://github.com/brasil-mcp/essentials
+    descricao: Servidor MCP brasileiro privacy-first, já preparado para o CNPJ alfanumérico.
+    categoria: dados-publicos
+    pacote: pypi
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-cep
+    repo: wendellbigato/mcp-cep
+    url: https://github.com/wendellbigato/mcp-cep
+    descricao: Consulta de CEP via ViaCEP, compatível com o Goose como extensão local.
+    categoria: dados-publicos
+    pacote: git
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-dados-brasil
+    repo: marioluciofjr/mcp-dados-brasil
+    url: https://github.com/marioluciofjr/mcp-dados-brasil
+    descricao: MCP remoto (hospedado) com estatísticas brasileiras — funciona como conector no Claude, ChatGPT e Gemini.
+    categoria: dados-publicos
+    pacote: remoto
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: bncc-pacotes
+    repo: bncc-dev/bncc-pacotes
+    url: https://github.com/bncc-dev/bncc-pacotes
+    descricao: A BNCC (Base Nacional Comum Curricular) como pacote npm/PyPI e servidor MCP — 1.721 aprendizagens verificadas.
+    categoria: dados-publicos
+    pacote: [npm, pypi]
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: feriadosapi-mcp
+    repo: feriadosapi/feriadosapi-mcp
+    url: https://github.com/feriadosapi/feriadosapi-mcp
+    descricao: Feriados nacionais, estaduais e municipais do Brasil por data, UF e município.
+    categoria: dados-publicos
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: bolsai-mcp
+    repo: viniciuslazzari/bolsai-mcp
+    url: https://github.com/viniciuslazzari/bolsai-mcp
+    descricao: Mercado de capitais brasileiro (B3, CVM, BCB) — cotações, fundamentos e indicadores para Claude e Cursor.
+    categoria: dados-publicos
+    pacote: pypi
+    exige_chave: sim
+    registro_oficial: nao
+
+  # ───────────────────────── Fiscal / Tributário ─────────────────────────
+  - nome: mcp-fiscal-brasil
+    repo: DeHor-Labs/mcp-fiscal-brasil
+    url: https://github.com/DeHor-Labs/mcp-fiscal-brasil
+    descricao: 44 tools fiscais — CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial, Simples Nacional, NCM/CFOP e Reforma 2026 (IBS/CBS).
+    categoria: fiscal
+    pacote: [pypi, oci]
+    exige_chave: nao
+    registro_oficial: sim
+    registro_nome: io.github.DeHor-Labs/mcp-fiscal-brasil
+
+  - nome: nfse-nacional-mcp
+    repo: saviski/nfse-nacional-mcp
+    url: https://github.com/saviski/nfse-nacional-mcp
+    descricao: Emissão e consulta de NFS-e no padrão nacional (nfse.gov.br) com certificado digital.
+    categoria: fiscal
+    pacote: pypi
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mcp-nfse-nacional
+    repo: SamuelMoraesF/mcp-nfse-nacional
+    url: https://github.com/SamuelMoraesF/mcp-nfse-nacional
+    descricao: Consulta notas no portal nacional da NFS-e, baixa XML e PDF direto do agente.
+    categoria: fiscal
+    pacote: [npm, oci]
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mcp-calculadora-rtc
+    repo: Izaiaspertrelly/mcp-calculadora-rtc
+    url: https://github.com/Izaiaspertrelly/mcp-calculadora-rtc
+    descricao: Calculadora oficial da Reforma Tributária do Consumo (Receita Federal) — CBS, IBS e Imposto Seletivo.
+    categoria: fiscal
+    pacote: pypi
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-nfe-br
+    repo: cmendezs/mcp-nfe-br
+    url: https://github.com/cmendezs/mcp-nfe-br
+    descricao: NF-e / NFC-e (modelos 55/65, schema 4.00) — geração, validação e assinatura de XML.
+    categoria: fiscal
+    pacote: pypi
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: brasilnfe-mcp
+    repo: BrasilNFe/brasilnfe-mcp
+    url: https://github.com/BrasilNFe/brasilnfe-mcp
+    descricao: Emite NF-e, NFC-e, NFS-e, CT-e, MDF-e e DC-e via SEFAZ pela plataforma BrasilNFe (servidor hospedado).
+    categoria: fiscal
+    pacote: remoto
+    exige_chave: sim
+    registro_oficial: sim
+    registro_nome: br.com.brasilnfe/fiscal
+
+  # ───────────────────────── Jurídico / Legislativo ─────────────────────────
+  - nome: br-eli-mcp
+    repo: matematicsolutions/br-eli-mcp
+    url: https://github.com/matematicsolutions/br-eli-mcp
+    descricao: 8 APIs abertas do direito brasileiro sem chave — Câmara, Senado, DataJud/CNJ, STJ, TST, LexML.
+    categoria: juridico
+    pacote: pypi
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-senado
+    repo: cristianoaredes/mcp-senado
+    url: https://github.com/cristianoaredes/mcp-senado
+    descricao: Dados Abertos do Senado Federal — senadores, matérias, votações e comissões.
+    categoria: juridico
+    pacote: [npm, oci]
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: senado-br-mcp-cloudflare
+    repo: SidneyBissoli/senado-br-mcp-cloudflare
+    url: https://github.com/SidneyBissoli/senado-br-mcp-cloudflare
+    descricao: Servidor hospedado (Cloudflare Workers) do Senado Federal — 66 tools, 4 prompts e 5 resources.
+    categoria: juridico
+    pacote: [remoto, npm]
+    exige_chave: nao
+    registro_oficial: sim
+    registro_nome: io.github.SidneyBissoli/senado-br-mcp
+
+  - nome: lexmcp
+    repo: ehrodan/lexmcp
+    url: https://github.com/ehrodan/lexmcp
+    descricao: MCP jurídico BR — DataJud/CNJ (91 tribunais), LexML, prazos do CPC, minutas e Visual Law.
+    categoria: juridico
+    pacote: pypi
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: jusbrasil-mcp
+    repo: mcp-dir/jusbrasil-mcp
+    url: https://github.com/mcp-dir/jusbrasil-mcp
+    descricao: Descoberta processual — processos por nome, CPF, CNPJ ou número, com raio-x consolidado (hospedado, pré-pago).
+    categoria: juridico
+    pacote: remoto
+    exige_chave: sim
+    registro_oficial: sim
+    registro_nome: io.github.mcp-dir/jusbrasil-mcp
+
+  - nome: mcp-consulta-processual-tjes
+    repo: hebervalverde/mcp-consulta-processual-tjes
+    url: https://github.com/hebervalverde/mcp-consulta-processual-tjes
+    descricao: Processos e jurisprudência do TJES (DataJud/CNJ + Solr), sem login.
+    categoria: juridico
+    pacote: git
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: tcero-jurisprudencia-mcp
+    repo: robertogecia/tcero-jurisprudencia-mcp
+    url: https://github.com/robertogecia/tcero-jurisprudencia-mcp
+    descricao: Jurisprudência do TCE-RO em linguagem natural, com inteiro teor em PDF — distribuído também como .mcpb.
+    categoria: juridico
+    pacote: [pypi, mcpb]
+    exige_chave: nao
+    registro_oficial: nao
+
+  # ───────────────────────── Comércio & SaaS BR ─────────────────────────
+  - nome: hotmart-mcp
+    repo: thaleslaray/hotmart-mcp
+    url: https://github.com/thaleslaray/hotmart-mcp
+    descricao: API da Hotmart — vendas, assinaturas, club, produtos, cupons e tickets, gerado da OpenAPI.
+    categoria: comercio-saas
+    pacote: [pypi, mcpb]
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: contaazul-mcp
+    repo: douglac/contaazul-mcp
+    url: https://github.com/douglac/contaazul-mcp
+    descricao: ERP Conta Azul no Claude e Cursor — vendas, clientes, produtos, contas a pagar/receber (35 tools).
+    categoria: comercio-saas
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: asaas-mcp
+    repo: mcp-dir/asaas-mcp
+    url: https://github.com/mcp-dir/asaas-mcp
+    descricao: Conta digital e cobranças do Asaas (boleto, Pix, cartão) com a API REST v3 completa.
+    categoria: comercio-saas
+    pacote: remoto
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mcp-server-omie
+    repo: geraldoaax/mcp-server-omie
+    url: https://github.com/geraldoaax/mcp-server-omie
+    descricao: Integração com o ERP Omie (clientes, produtos, pedidos, financeiro).
+    categoria: comercio-saas
+    pacote: git
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mercadolibre-mcp-server (oficial)
+    repo: mercadolibre/mercadolibre-mcp-server
+    url: https://github.com/mercadolibre/mercadolibre-mcp-server
+    descricao: Servidor MCP oficial do Mercado Livre para desenvolvedores da plataforma (hospedado, OAuth).
+    categoria: comercio-saas
+    pacote: remoto
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mcp-bling
+    repo: vitorpaimio/mcp-bling
+    url: https://github.com/vitorpaimio/mcp-bling
+    descricao: ERP Bling (API v3) — produtos, estoque, pedidos de venda e contatos.
+    categoria: comercio-saas
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: BridgeAPI
+    repo: EvandroSchechtel/BridgeAPI
+    url: https://github.com/EvandroSchechtel/BridgeAPI
+    descricao: Ecossistema de conectores MCP para plataformas BR — WhatsApp, Hotmart, Mercado Livre, Shopify, NF-e e Pix.
+    categoria: comercio-saas
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: yampi-mcp
+    repo: Eduardo-Orsi/yampi-mcp
+    url: https://github.com/Eduardo-Orsi/yampi-mcp
+    descricao: Loja Yampi conectada ao Claude — servidor remoto self-hosted em Cloudflare Workers.
+    categoria: comercio-saas
+    pacote: remoto
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: ifood-mcp
+    repo: AriOliv/ifood-mcp
+    url: https://github.com/AriOliv/ifood-mcp
+    descricao: iFood não-oficial — buscar restaurantes, montar carrinho e pedir comida via agente (stdio + HTTP).
+    categoria: comercio-saas
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: MCP-Sienge-Node
+    repo: frlorenzon/MCP-Sienge-Node
+    url: https://github.com/frlorenzon/MCP-Sienge-Node
+    descricao: ERP Sienge (Softplan, construção civil) dentro do Claude — conector não-oficial em Node.
+    categoria: comercio-saas
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: frete-mcp
+    repo: andrehocsis/frete-mcp
+    url: https://github.com/andrehocsis/frete-mcp
+    descricao: Cotação de frete brasileiro como tool nativa do Claude (frete.center).
+    categoria: comercio-saas
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: signdocs-mcp-server
+    repo: signdocsbrasil/signdocs-mcp-server
+    url: https://github.com/signdocsbrasil/signdocs-mcp-server
+    descricao: Assinatura eletrônica e digital (ICP-Brasil, biometria, OTP) — servidor oficial da SignDocs Brasil.
+    categoria: comercio-saas
+    pacote: [npm, oci]
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: ggcheckout-mcp
+    repo: ggCheckout/ggcheckout-mcp
+    url: https://github.com/ggCheckout/ggcheckout-mcp
+    descricao: GG Checkout — produtos, checkouts, pagamentos, funis e área de membros via Claude e Cursor.
+    categoria: comercio-saas
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: Skills-MCP-Sankhya-Ajuda
+    repo: DevSkillsIT/Skills-MCP-Sankhya-Ajuda
+    url: https://github.com/DevSkillsIT/Skills-MCP-Sankhya-Ajuda
+    descricao: Busca semântica nas bases públicas do Sankhya ERP — help center (6.123 artigos) e comunidade.
+    categoria: comercio-saas
+    pacote: [npm, pypi]
+    exige_chave: sim
+    registro_oficial: nao
+
+  # ───────────────────────── Pagamentos (Pix) ─────────────────────────
+  - nome: mcp-dev-latam
+    repo: codespar/mcp-dev-latam
+    url: https://github.com/codespar/mcp-dev-latam
+    descricao: Coleção open source para comércio latino-americano — Pix, NF-e, Banco do Brasil, PagBrasil, BrasilAPI e mais.
+    categoria: pagamentos
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: sim
+    registro_nome: io.github.codespar/mcp-banco-do-brasil
+
+  - nome: pix-mcp
+    repo: Regenerating-World/pix-mcp
+    url: https://github.com/Regenerating-World/pix-mcp
+    descricao: Geração de cobranças Pix (QR/copia-e-cola) e consulta de pagamentos a partir do agente.
+    categoria: pagamentos
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: banco-mcp
+    repo: douglac/banco-mcp
+    url: https://github.com/douglac/banco-mcp
+    descricao: Open Finance no Claude e Cursor — saldos, extratos e faturas de 30+ bancos (Itaú, Nubank, Inter, BB, Caixa…).
+    categoria: pagamentos
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mercadopago-mcp-server (oficial)
+    repo: mercadolibre/mercadopago-mcp-server
+    url: https://github.com/mercadolibre/mercadopago-mcp-server
+    descricao: Servidor MCP oficial do Mercado Pago para integrar pagamentos (Pix, cartão, boleto) via agentes.
+    categoria: pagamentos
+    pacote: remoto
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: pagarme-mcp (mcp-dir)
+    repo: mcp-dir/pagarme-mcp
+    url: https://github.com/mcp-dir/pagarme-mcp
+    descricao: Gateway Pagar.me (Stone) — pedidos, cobranças (cartão, Pix, boleto), clientes, planos e assinaturas.
+    categoria: pagamentos
+    pacote: remoto
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: pagarme-mcp (financeiro)
+    repo: fabianoomura/pagarme-mcp
+    url: https://github.com/fabianoomura/pagarme-mcp
+    descricao: Financeiro Pagar.me v5 + Shopify — recebíveis, conciliação, fluxo de caixa e antecipações.
+    categoria: pagamentos
+    pacote: pypi
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: bipa-cli
+    repo: bipa-app/bipa-cli
+    url: https://github.com/bipa-app/bipa-cli
+    descricao: Trilhos de pagamento (Pix) para agentes de IA — binários prontos, instalador e servidor MCP.
+    categoria: pagamentos
+    pacote: [git, remoto]
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: miniframe-tools-mcp
+    repo: edsonvmendes/miniframe-tools-mcp
+    url: https://github.com/edsonvmendes/miniframe-tools-mcp
+    descricao: Ferramentas BR (Pix, CEP, CNPJ, captura web, PDF) pagas por chamada em USDC via x402.
+    categoria: pagamentos
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  # ───────────────────────── Eleições / Governo ─────────────────────────
+  - nome: apuracao-2026-mcp
+    repo: daniel-filius/apuracao-2026-mcp
+    url: https://github.com/daniel-filius/apuracao-2026-mcp
+    descricao: Resultados oficiais parciais das eleições 2026 direto da divulgação do TSE — servidor MCP + bot Telegram.
+    categoria: governo
+    pacote: [pypi, oci]
+    exige_chave: nao
+    registro_oficial: sim
+    registro_nome: io.github.daniel-filius/apuracao-2026
+
+  - nome: mcp-portal-transparencia
+    repo: dutradotdev/mcp-portal-transparencia
+    url: https://github.com/dutradotdev/mcp-portal-transparencia
+    descricao: Orquestração das chamadas à API do Portal da Transparência do Governo Federal.
+    categoria: governo
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mcp-brazil-pncp
+    repo: pipeworx-io/mcp-brazil-pncp
+    url: https://github.com/pipeworx-io/mcp-brazil-pncp
+    descricao: Licitações e contratações públicas do PNCP, sem chave.
+    categoria: governo
+    pacote: npm
+    exige_chave: nao
+    registro_oficial: sim
+    registro_nome: io.github.pipeworx-io/brazil-pncp
+
+  - nome: querido-diario-mcp-server
+    repo: lucaspmgomess/querido-diario-mcp-server
+    url: https://github.com/lucaspmgomess/querido-diario-mcp-server
+    descricao: Diários oficiais municipais pela API pública do Querido Diário (Open Knowledge Brasil), local-first.
+    categoria: governo
+    pacote: pypi
+    exige_chave: nao
+    registro_oficial: sim
+    registro_nome: io.github.lucaspmgomess/querido-diario-mcp-server
+
+  - nome: mcp-transparencia-municipal
+    repo: leorochasf/mcp-transparencia-municipal
+    url: https://github.com/leorochasf/mcp-transparencia-municipal
+    descricao: Portal da Transparência do seu município (folha, empenhos, licitações) via MCP, CLI ou Python.
+    categoria: governo
+    pacote: pypi
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: LicitaHawk
+    repo: J-Pster/LicitaHawk
+    url: https://github.com/J-Pster/LicitaHawk
+    descricao: API REST + servidor MCP sobre o PNCP com alertas por webhook e e-mail.
+    categoria: governo
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: BrazilianSanctionsMCPserver
+    repo: williamoliv/BrazilianSanctionsMCPserver
+    url: https://github.com/williamoliv/BrazilianSanctionsMCPserver
+    descricao: Bases de sanções brasileiras (CEIS, CNEP, CEPIM) do Portal da Transparência para PLD/compliance.
+    categoria: governo
+    pacote: git
+    exige_chave: sim
+    registro_oficial: nao
+
+  # ───────────────────────── Skills & prompts BR ─────────────────────────
+  - nome: cnpj-api/skills
+    repo: cnpj-api/skills
+    url: https://github.com/cnpj-api/skills
+    descricao: Skills de agente para consulta e enriquecimento de CNPJ com a cnpj-api.
+    categoria: skills
+    tipo: skill
+    pacote: git
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: joompulse-skills
+    repo: joomcode/joompulse-skills
+    url: https://github.com/joomcode/joompulse-skills
+    descricao: Skills públicas do Claude para vendedores do Mercado Livre — pesquisa de mercado e concorrência com dados JoomPulse.
+    categoria: skills
+    tipo: skill
+    pacote: git
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: oficina (kapstan)
+    repo: kapstanhq/oficina
+    url: https://github.com/kapstanhq/oficina
+    descricao: Skills de IA em português por profissão (corretor de imóveis, prospecção B2B, busca de vaga) como plugins do Claude Code.
+    categoria: skills
+    tipo: skill
+    pacote: git
+    exige_chave: nao
+    registro_oficial: nao
+
+  # ───────────────────────── Guias em português ─────────────────────────
+  - nome: Claude Code — Conectar a ferramentas via MCP (docs oficiais em pt)
+    url: https://code.claude.com/docs/pt/mcp
+    descricao: Documentação oficial do Claude Code em português sobre como adicionar servidores MCP (stdio, HTTP, escopos).
+    categoria: guias
+    tipo: guia
+
+  - nome: awesome-mcp-servers — README em pt-BR
+    repo: punkpeye/awesome-mcp-servers
+    url: https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-pt_BR.md
+    descricao: Tradução em português da maior lista global de servidores MCP (não filtra por Brasil — por isso este hub existe).
+    categoria: guias
+    tipo: guia
+
+  - nome: Alura — Model Context Protocol (MCP), o guia definitivo
+    url: https://www.alura.com.br/artigos/model-context-protocol-mcp
+    descricao: Artigo introdutório em pt-BR sobre o que é MCP, arquitetura cliente/servidor e casos de uso.
+    categoria: guias
+    tipo: guia
+
+  - nome: Marfin — MCP, o guia completo em português
+    url: https://blog.marfin.co/mcp-model-context-protocol
+    descricao: Guia em pt-BR com configuração passo a passo no Cursor e no Claude Desktop.
+    categoria: guias
+    tipo: guia
+
+  - nome: Veja como é fácil criar um servidor MCP (FastMCP + Python)
+    repo: RicardoFreitasAraujo/mcp-cep-python
+    url: https://github.com/RicardoFreitasAraujo/mcp-cep-python
+    descricao: Vídeo-tutorial em pt-BR com código — servidor MCP de CEP em Python com FastMCP.
+    categoria: guias
+    tipo: guia

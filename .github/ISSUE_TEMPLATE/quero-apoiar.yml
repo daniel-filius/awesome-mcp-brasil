@@ -1,0 +1,51 @@
+name: Quero apoiar
+description: Para empresas/projetos que queiram aparecer na seção "Apoiadores" do README.
+title: "[apoio] <nome da empresa ou projeto>"
+labels: ["apoio"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A seção **Apoiadores** fica no topo do README e tem poucos slots (logo + link + 1 linha). O apoio mantém a
+        verificação automática e a curadoria — e **não** compra posição na lista: a tabela continua neutra, ordenada por
+        stars, sem links de afiliado. Toda a conversa acontece aqui na issue (não usamos e-mail).
+  - type: input
+    id: empresa
+    attributes:
+      label: Empresa / projeto
+    validations:
+      required: true
+  - type: input
+    id: site
+    attributes:
+      label: Site que o logo deve apontar
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: relacao
+    attributes:
+      label: Relação com o ecossistema MCP brasileiro
+      options:
+        - Mantemos um servidor MCP / skill listado aqui
+        - Oferecemos API de dados brasileiros
+        - Hospedagem / infraestrutura para agentes
+        - Outro (explique abaixo)
+    validations:
+      required: true
+  - type: textarea
+    id: detalhes
+    attributes:
+      label: Detalhes
+      description: Por quanto tempo, que tipo de menção espera, qualquer condição.
+    validations:
+      required: true
+  - type: dropdown
+    id: pagamento
+    attributes:
+      label: Forma de pagamento preferida
+      options:
+        - Pix
+        - Outra (explique nos detalhes)
+    validations:
+      required: true

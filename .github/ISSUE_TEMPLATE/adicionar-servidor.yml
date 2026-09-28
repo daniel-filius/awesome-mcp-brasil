@@ -1,0 +1,89 @@
+name: Adicionar servidor / skill / guia
+description: Sugira um servidor MCP, skill de agente ou guia em pt-BR brasileiro para a lista.
+title: "[adicionar] <nome do projeto>"
+labels: ["adicionar-servidor"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por contribuir! Preencha os campos abaixo — eles são exatamente os campos de `data/servers.yaml`,
+        então a entrada pode ser adicionada sem retrabalho. Critérios: projeto brasileiro ou focado em dados/plataformas
+        do Brasil, repositório público e não arquivado, README explicando como instalar. Sem links de afiliado.
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link do repositório no GitHub (ou do artigo/documentação, se for guia).
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: Categoria
+      options:
+        - Dados públicos
+        - Fiscal / Tributário
+        - Jurídico / Legislativo
+        - Comércio & SaaS BR
+        - Pagamentos (Pix)
+        - Eleições / Governo
+        - Skills & prompts BR
+        - Guias em português
+    validations:
+      required: true
+  - type: input
+    id: descricao
+    attributes:
+      label: Descrição em 1 linha (pt-BR)
+      description: O que o servidor faz, em até 160 caracteres.
+      placeholder: "Consulta CNPJ e CEP na BrasilAPI, sem chave."
+    validations:
+      required: true
+  - type: dropdown
+    id: pacote
+    attributes:
+      label: Tipo de pacote
+      description: Como se instala? Pode marcar mais de um.
+      multiple: true
+      options:
+        - npm
+        - PyPI
+        - OCI (Docker)
+        - MCPB (bundle)
+        - remoto (servidor hospedado HTTP/SSE)
+        - só git (clonar)
+    validations:
+      required: true
+  - type: dropdown
+    id: exige_chave
+    attributes:
+      label: Exige conta ou chave?
+      description: Precisa de conta, API key, token, certificado digital ou pagamento para funcionar?
+      options:
+        - "Não — funciona sem cadastro"
+        - "Sim — exige conta/chave/certificado/pagamento"
+    validations:
+      required: true
+  - type: dropdown
+    id: registro
+    attributes:
+      label: Está no registro oficial (registry.modelcontextprotocol.io)?
+      options:
+        - "Não"
+        - "Sim"
+        - "Não sei"
+    validations:
+      required: true
+  - type: input
+    id: registro_nome
+    attributes:
+      label: Nome no registro oficial (se souber)
+      placeholder: io.github.owner/repo
+  - type: checkboxes
+    id: relacao
+    attributes:
+      label: Relação com o projeto
+      options:
+        - label: Sou autor(a)/mantenedor(a) do projeto
+        - label: Sou usuário(a) e testei que instala e funciona

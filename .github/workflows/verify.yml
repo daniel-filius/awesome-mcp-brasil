@@ -1,0 +1,62 @@
+name: verificação semanal
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"   # toda segunda, 09:17 UTC (06:17 BRT)
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "data/servers.yaml"
+      - "scripts/**"
+      - "tests/**"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: verify
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install --quiet pyyaml
+
+      - name: Verificar links, repositórios e registro; regenerar README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/verify.py
+
+      - name: Testes
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Abrir PR se o README/status mudou
+        if: github.event_name != 'pull_request'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bot/verificacao-semanal
+          delete-branch: true
+          commit-message: "chore: verificação semanal — README e status regenerados"
+          title: "Verificação semanal: README regenerado"
+          body: |
+            PR automático do workflow `verify.yml`.
+
+            - `data/status.json`: stars, último push, arquivado, link OK, presença no registro oficial.
+            - `README.md`: regenerado a partir de `data/servers.yaml`.
+
+            Entradas marcadas como **link fora do ar** ou **repo arquivado** aparecem com badge vermelho na tabela;
+            se persistirem na próxima verificação, remova-as do YAML.
+          labels: verificacao-automatica
+          add-paths: |
+            README.md
+            data/status.json
