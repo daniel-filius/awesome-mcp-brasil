@@ -4,7 +4,7 @@
 
 Lista **curada e auto-verificada** de servidores MCP (Model Context Protocol) e skills de agente **brasileiros** — dados públicos, fiscal, jurídico, SaaS BR, Pix, eleições — para usar no Claude Code, Claude Desktop, Cursor, Windsurf, Gemini CLI ou qualquer cliente MCP. Cada entrada mostra stars e último commit (ao vivo), tipo de pacote, se **exige conta/chave** e se está no [registro oficial do MCP](https://registry.modelcontextprotocol.io). Uma GitHub Action roda toda semana, checa link morto e repositório arquivado e abre um PR com a tabela regenerada — o hub não fica com link quebrado.
 
-> Fonte única: [`data/servers.yaml`](data/servers.yaml) · README gerado em 2026-09-28 por `scripts/build_readme.py`. **Não edite o README à mão** — edite o YAML ou [abra uma issue](https://github.com/daniel-filius/awesome-mcp-brasil/issues/new?template=adicionar-servidor.yml).
+> Fonte única: [`data/servers.yaml`](data/servers.yaml) · README gerado em 2026-09-29 por `scripts/build_readme.py`. **Não edite o README à mão** — edite o YAML ou [abra uma issue](https://github.com/daniel-filius/awesome-mcp-brasil/issues/new?template=adicionar-servidor.yml).
 
 ## Sumário
 
