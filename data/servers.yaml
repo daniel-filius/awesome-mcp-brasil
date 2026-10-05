@@ -680,7 +680,8 @@ servidores:
     categoria: dados-publicos
     pacote: [npm, remoto]
     exige_chave: nao
-    registro_oficial: nao
+    registro_oficial: sim
+    registro_nome: io.github.pipeworx-io/ibge-br
 
   - nome: mcp-ibge-natal
     repo: fabioff30/mcp-ibge-natal
