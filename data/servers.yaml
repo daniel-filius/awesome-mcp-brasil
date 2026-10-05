@@ -661,3 +661,180 @@ servidores:
     descricao: Vídeo-tutorial em pt-BR com código — servidor MCP de CEP em Python com FastMCP.
     categoria: guias
     tipo: guia
+
+  # ───────────────── Adicionados em 2026-10-05 (iteração D+7) ─────────────────
+  # Dados públicos
+  - nome: taco-mcp
+    repo: matheusbuniotto/taco-mcp
+    url: https://github.com/matheusbuniotto/taco-mcp
+    descricao: Tabela TACO (597 alimentos, UNICAMP) — calorias, proteínas, carboidratos e gorduras para agentes de IA, em Python.
+    categoria: dados-publicos
+    pacote: git
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-ibge-br
+    repo: pipeworx-io/mcp-ibge-br
+    url: https://github.com/pipeworx-io/mcp-ibge-br
+    descricao: IBGE (estados, municípios, indicadores) via gateway Pipeworx — remoto ou local com npx; primeiras chamadas sem conta.
+    categoria: dados-publicos
+    pacote: [npm, remoto]
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-ibge-natal
+    repo: fabioff30/mcp-ibge-natal
+    url: https://github.com/fabioff30/mcp-ibge-natal
+    descricao: Dados do IBGE (Censo 2022, PIB, bairros) para Natal/RN em Node, com passo a passo para Claude Desktop e Cursor.
+    categoria: dados-publicos
+    pacote: git
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: manual-sih-mcp (DATASUS)
+    repo: leonardo-amaral-3/mcp-datasus
+    url: https://github.com/leonardo-amaral-3/mcp-datasus
+    descricao: Auditoria de faturamento SIH/SUS — RAG do manual + SIGTAP/CNES do DATASUS via DuckDB, registrável no Claude Code.
+    categoria: dados-publicos
+    pacote: [git, oci]
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-viacep-server
+    repo: rmohandaspires/mcp-viacep-server
+    url: https://github.com/rmohandaspires/mcp-viacep-server
+    descricao: Consulta de CEP e busca de CEPs por endereço via ViaCEP, em Python — sem autenticação.
+    categoria: dados-publicos
+    pacote: git
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: mcp-brasil (Go)
+    repo: anderson-ntlabs/mcp-brasil
+    url: https://github.com/anderson-ntlabs/mcp-brasil
+    descricao: 16 tools em Go — Portal da Transparência, IBGE, Minha Receita (CNPJ), Banco Central e PNCP; chave só para Transparência.
+    categoria: dados-publicos
+    pacote: git
+    exige_chave: nao
+    registro_oficial: nao
+
+  # Jurídico / Legislativo
+  - nome: spring-ai-mcp-brasil
+    repo: ronnyarruda20/spring-ai-mcp-brasil
+    url: https://github.com/ronnyarruda20/spring-ai-mcp-brasil
+    descricao: Java/Spring AI — processos do DataJud (CNJ) e CNPJ via BrasilAPI, com retry em 429; roda via stdio, HTTP ou Docker.
+    categoria: juridico
+    pacote: [git, oci]
+    exige_chave: nao
+    registro_oficial: nao
+
+  - nome: MCP-PJe-TJMA
+    repo: fxbarros/MCP-PJe-TJMA
+    url: https://github.com/fxbarros/MCP-PJe-TJMA
+    descricao: 24 ferramentas para o PJe do TJMA (1º e 2º graus) com login automatizado CPF + senha + TOTP no SSO do PDPJ.
+    categoria: juridico
+    pacote: git
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: MCP-PJe-TJPI
+    repo: fxbarros/MCP-PJe-TJPI
+    url: https://github.com/fxbarros/MCP-PJe-TJPI
+    descricao: 24 ferramentas para o PJe do TJPI (1º grau) com login automatizado e credenciais guardadas no Keychain/keyring.
+    categoria: juridico
+    pacote: git
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: MCP-PJe-TRF1
+    repo: anapires1986/MCP-PJe-TRF1
+    url: https://github.com/anapires1986/MCP-PJe-TRF1
+    descricao: 24 ferramentas para o PJe do TRF1 (Justiça Federal da 1ª Região, 1º e 2º graus) com login SSO PDPJ automatizado.
+    categoria: juridico
+    pacote: git
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mcp-pje-tjpi-2g
+    repo: mateusthe/mcp-pje-tjpi-2g
+    url: https://github.com/mateusthe/mcp-pje-tjpi-2g
+    descricao: Consulta somente leitura ao PJe-TJPI 2º grau (22 tools), credenciais no cofre nativo do sistema operacional.
+    categoria: juridico
+    pacote: git
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mcp-pje-tjpe
+    repo: bbpropulse/mcp-pje-tjpe-dist
+    url: https://github.com/bbpropulse/mcp-pje-tjpe-dist
+    descricao: PJe/TJPE, SICAJUD, consulta pública e DataJud em servidor stdio local; login opcional, credenciais no cofre do SO.
+    categoria: juridico
+    pacote: git
+    exige_chave: nao
+    registro_oficial: nao
+
+  # Fiscal / Tributário
+  - nome: mcp-nota-fiscal
+    repo: rodrigo-do-carmo/mcp-nota-fiscal
+    url: https://github.com/rodrigo-do-carmo/mcp-nota-fiscal
+    descricao: Emissão e consulta de NF-e, NFC-e e NFS-e via API Nuvem Fiscal (token obrigatório), pacote npm.
+    categoria: fiscal
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  # Comércio & SaaS BR
+  - nome: mcp-evolution-api
+    repo: IntuitivePhella/mcp-evolution-api
+    url: https://github.com/IntuitivePhella/mcp-evolution-api
+    descricao: WhatsApp via Evolution API (plataforma brasileira) — npm ou Docker; exige URL e apikey da sua instância.
+    categoria: comercio-saas
+    pacote: [npm, oci]
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mcp-kiwify
+    repo: pauloFroes/mcp-kiwify
+    url: https://github.com/pauloFroes/mcp-kiwify
+    descricao: Vendas, produtos e afiliados da Kiwify via API oficial (OAuth gerenciado pelo servidor); instala com npx.
+    categoria: comercio-saas
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: mcp-vtex
+    repo: leosepulveda/mcp-vtex
+    url: https://github.com/leosepulveda/mcp-vtex
+    descricao: 164 tools para a plataforma VTEX (catálogo, pedidos, logística) — npm; exige App Key e App Token.
+    categoria: comercio-saas
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
+  # Skills & prompts BR
+  - nome: marfin-cnpj-dossie
+    repo: marfin-lab/skills-marfin-cnpj-dossie
+    url: https://github.com/marfin-lab/skills-marfin-cnpj-dossie
+    descricao: Skill para Claude — dossiê completo de um CNPJ (cadastro, sócios, capital, CNAE) usando o MCP Brasil da Marfin.
+    categoria: skills
+    tipo: skill
+    pacote: git
+    exige_chave: sim
+    registro_oficial: nao
+
+  - nome: justica50 (Obsidian)
+    repo: Jorgelaw/justica50
+    url: https://github.com/Jorgelaw/justica50
+    descricao: Plugin do Obsidian que expõe o vault como servidor MCP e conecta ao PJe/DataJud (Justiça 5.0); instala via BRAT.
+    categoria: skills
+    tipo: skill
+    pacote: git
+    exige_chave: nao
+    registro_oficial: nao
+
+  # Guias em português
+  - nome: Construindo um MCP Server do Cartola FC com Golang (dev.to)
+    url: https://dev.to/arthur_isvi/construindo-um-mcp-server-do-cartola-fc-com-golang-3jih
+    descricao: Artigo em pt-BR passo a passo — servidor MCP em Go consumindo a API do Cartola FC.
+    categoria: guias
+    tipo: guia
