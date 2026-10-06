@@ -7,7 +7,7 @@
   "pushed_at": "2026-05-10",
   "stars": 9,
   "url": "https://github.com/AriOliv/ifood-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "BrasilNFe/brasilnfe-mcp": {
   "archived": false,
@@ -18,18 +18,18 @@
   "registro_ok": true,
   "stars": 0,
   "url": "https://github.com/BrasilNFe/brasilnfe-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "DeHor-Labs/mcp-fiscal-brasil": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "MIT",
-  "pushed_at": "2026-09-27",
+  "pushed_at": "2026-10-04",
   "registro_ok": true,
-  "stars": 313,
+  "stars": 314,
   "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "DevSkillsIT/Skills-MCP-Sankhya-Ajuda": {
   "archived": false,
@@ -39,7 +39,7 @@
   "pushed_at": "2026-05-28",
   "stars": 4,
   "url": "https://github.com/DevSkillsIT/Skills-MCP-Sankhya-Ajuda",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "Eduardo-Orsi/yampi-mcp": {
   "archived": false,
@@ -49,7 +49,7 @@
   "pushed_at": "2026-08-31",
   "stars": 2,
   "url": "https://github.com/Eduardo-Orsi/yampi-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "EvandroSchechtel/BridgeAPI": {
   "archived": false,
@@ -59,7 +59,17 @@
   "pushed_at": "2026-03-23",
   "stars": 4,
   "url": "https://github.com/EvandroSchechtel/BridgeAPI",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "IntuitivePhella/mcp-evolution-api": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": "MIT",
+  "pushed_at": "2025-04-01",
+  "stars": 24,
+  "url": "https://github.com/IntuitivePhella/mcp-evolution-api",
+  "verificado_em": "2026-10-05"
  },
  "Izaiaspertrelly/mcp-calculadora-rtc": {
   "archived": false,
@@ -69,7 +79,7 @@
   "pushed_at": "2026-09-04",
   "stars": 0,
   "url": "https://github.com/Izaiaspertrelly/mcp-calculadora-rtc",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "J-Pster/LicitaHawk": {
   "archived": false,
@@ -79,7 +89,17 @@
   "pushed_at": "2026-09-08",
   "stars": 0,
   "url": "https://github.com/J-Pster/LicitaHawk",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "Jorgelaw/justica50": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": "MIT",
+  "pushed_at": "2026-07-22",
+  "stars": 1,
+  "url": "https://github.com/Jorgelaw/justica50",
+  "verificado_em": "2026-10-05"
  },
  "Mcp-Brasil/mcp-brasil": {
   "archived": false,
@@ -87,9 +107,9 @@
   "http_ok": true,
   "license": "MIT",
   "pushed_at": "2026-09-19",
-  "stars": 1795,
+  "stars": 1802,
   "url": "https://github.com/Mcp-Brasil/mcp-brasil",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "Regenerating-World/pix-mcp": {
   "archived": false,
@@ -99,7 +119,7 @@
   "pushed_at": "2025-08-27",
   "stars": 3,
   "url": "https://github.com/Regenerating-World/pix-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "RicardoFreitasAraujo/mcp-cep-python": {
   "archived": false,
@@ -109,7 +129,7 @@
   "pushed_at": "2026-02-01",
   "stars": 0,
   "url": "https://github.com/RicardoFreitasAraujo/mcp-cep-python",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "SamuelMoraesF/mcp-nfse-nacional": {
   "archived": false,
@@ -119,50 +139,50 @@
   "pushed_at": "2026-02-12",
   "stars": 17,
   "url": "https://github.com/SamuelMoraesF/mcp-nfse-nacional",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "SidneyBissoli/bcb-br-mcp": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "MIT",
-  "pushed_at": "2026-09-28",
+  "pushed_at": "2026-10-05",
   "registro_ok": true,
-  "stars": 8,
+  "stars": 9,
   "url": "https://github.com/SidneyBissoli/bcb-br-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "SidneyBissoli/ibge-br-mcp": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "MIT",
-  "pushed_at": "2026-09-29",
+  "pushed_at": "2026-10-05",
   "registro_ok": true,
   "stars": 11,
   "url": "https://github.com/SidneyBissoli/ibge-br-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "SidneyBissoli/senado-br-mcp-cloudflare": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "MIT",
-  "pushed_at": "2026-09-29",
+  "pushed_at": "2026-10-05",
   "registro_ok": true,
   "stars": 6,
   "url": "https://github.com/SidneyBissoli/senado-br-mcp-cloudflare",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "SidneyBissoli/sih-br-mcp": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "MIT",
-  "pushed_at": "2026-09-28",
+  "pushed_at": "2026-10-05",
   "stars": 0,
   "url": "https://github.com/SidneyBissoli/sih-br-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "alanpcf/brasil-data-mcp": {
   "archived": false,
@@ -170,9 +190,29 @@
   "http_ok": true,
   "license": "MIT",
   "pushed_at": "2026-09-15",
-  "stars": 7,
+  "stars": 8,
   "url": "https://github.com/alanpcf/brasil-data-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "anapires1986/MCP-PJe-TRF1": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": null,
+  "pushed_at": "2026-07-18",
+  "stars": 0,
+  "url": "https://github.com/anapires1986/MCP-PJe-TRF1",
+  "verificado_em": "2026-10-05"
+ },
+ "anderson-ntlabs/mcp-brasil": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": "MIT",
+  "pushed_at": "2026-09-08",
+  "stars": 1,
+  "url": "https://github.com/anderson-ntlabs/mcp-brasil",
+  "verificado_em": "2026-10-05"
  },
  "andrehocsis/frete-mcp": {
   "archived": false,
@@ -182,17 +222,27 @@
   "pushed_at": "2026-08-03",
   "stars": 0,
   "url": "https://github.com/andrehocsis/frete-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "bbpropulse/mcp-pje-tjpe-dist": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": "MIT",
+  "pushed_at": "2026-09-11",
+  "stars": 0,
+  "url": "https://github.com/bbpropulse/mcp-pje-tjpe-dist",
+  "verificado_em": "2026-10-05"
  },
  "bipa-app/bipa-cli": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "MIT",
-  "pushed_at": "2026-09-23",
+  "pushed_at": "2026-10-04",
   "stars": 6,
   "url": "https://github.com/bipa-app/bipa-cli",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "bncc-dev/bncc-pacotes": {
   "archived": false,
@@ -202,7 +252,7 @@
   "pushed_at": "2026-09-26",
   "stars": 9,
   "url": "https://github.com/bncc-dev/bncc-pacotes",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "brasil-mcp/essentials": {
   "archived": false,
@@ -212,7 +262,7 @@
   "pushed_at": "2026-05-22",
   "stars": 1,
   "url": "https://github.com/brasil-mcp/essentials",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "cmendezs/mcp-nfe-br": {
   "archived": false,
@@ -222,7 +272,7 @@
   "pushed_at": "2026-09-12",
   "stars": 0,
   "url": "https://github.com/cmendezs/mcp-nfe-br",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "cnpj-api/skills": {
   "archived": false,
@@ -232,7 +282,7 @@
   "pushed_at": "2026-09-18",
   "stars": 2,
   "url": "https://github.com/cnpj-api/skills",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "codespar/mcp-dev-latam": {
   "archived": false,
@@ -241,9 +291,9 @@
   "license": "MIT",
   "pushed_at": "2026-09-27",
   "registro_ok": true,
-  "stars": 271,
+  "stars": 272,
   "url": "https://github.com/codespar/mcp-dev-latam",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "cristianoaredes/mcp-dadosbr": {
   "archived": false,
@@ -253,7 +303,7 @@
   "pushed_at": "2026-04-06",
   "stars": 10,
   "url": "https://github.com/cristianoaredes/mcp-dadosbr",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "cristianoaredes/mcp-senado": {
   "archived": false,
@@ -263,29 +313,29 @@
   "pushed_at": "2026-04-06",
   "stars": 6,
   "url": "https://github.com/cristianoaredes/mcp-senado",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "dan94k/brazilian-dev-mcp": {
   "archived": false,
-  "exists": true,
-  "http_ok": true,
+  "exists": false,
+  "http_ok": false,
   "license": null,
   "pushed_at": "2026-05-27",
   "registro_ok": true,
   "stars": 0,
   "url": "https://github.com/dan94k/brazilian-dev-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "daniel-filius/apuracao-2026-mcp": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "MIT",
-  "pushed_at": "2026-09-29",
+  "pushed_at": "2026-10-05",
   "registro_ok": true,
   "stars": 0,
   "url": "https://github.com/daniel-filius/apuracao-2026-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "douglac/banco-mcp": {
   "archived": false,
@@ -295,7 +345,7 @@
   "pushed_at": "2026-05-15",
   "stars": 24,
   "url": "https://github.com/douglac/banco-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "douglac/contaazul-mcp": {
   "archived": false,
@@ -305,7 +355,7 @@
   "pushed_at": "2026-06-23",
   "stars": 12,
   "url": "https://github.com/douglac/contaazul-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "dutradotdev/mcp-portal-transparencia": {
   "archived": false,
@@ -315,7 +365,7 @@
   "pushed_at": "2025-07-12",
   "stars": 224,
   "url": "https://github.com/dutradotdev/mcp-portal-transparencia",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "edsonvmendes/miniframe-tools-mcp": {
   "archived": false,
@@ -325,7 +375,7 @@
   "pushed_at": "2026-07-24",
   "stars": 1,
   "url": "https://github.com/edsonvmendes/miniframe-tools-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "ehrodan/lexmcp": {
   "archived": false,
@@ -335,7 +385,7 @@
   "pushed_at": "2026-07-24",
   "stars": 2,
   "url": "https://github.com/ehrodan/lexmcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "fabianoomura/pagarme-mcp": {
   "archived": false,
@@ -345,7 +395,17 @@
   "pushed_at": "2026-09-24",
   "stars": 0,
   "url": "https://github.com/fabianoomura/pagarme-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "fabioff30/mcp-ibge-natal": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": "MIT",
+  "pushed_at": "2026-06-18",
+  "stars": 0,
+  "url": "https://github.com/fabioff30/mcp-ibge-natal",
+  "verificado_em": "2026-10-05"
  },
  "felipegambettadesouza6-jpg/open-economics": {
   "archived": false,
@@ -355,7 +415,7 @@
   "pushed_at": "2026-09-12",
   "stars": 2,
   "url": "https://github.com/felipegambettadesouza6-jpg/open-economics",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "feriadosapi/feriadosapi-mcp": {
   "archived": false,
@@ -365,7 +425,7 @@
   "pushed_at": "2026-09-24",
   "stars": 0,
   "url": "https://github.com/feriadosapi/feriadosapi-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "frlorenzon/MCP-Sienge-Node": {
   "archived": false,
@@ -375,7 +435,27 @@
   "pushed_at": "2026-09-14",
   "stars": 1,
   "url": "https://github.com/frlorenzon/MCP-Sienge-Node",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "fxbarros/MCP-PJe-TJMA": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": null,
+  "pushed_at": "2026-07-18",
+  "stars": 3,
+  "url": "https://github.com/fxbarros/MCP-PJe-TJMA",
+  "verificado_em": "2026-10-05"
+ },
+ "fxbarros/MCP-PJe-TJPI": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": null,
+  "pushed_at": "2026-07-18",
+  "stars": 3,
+  "url": "https://github.com/fxbarros/MCP-PJe-TJPI",
+  "verificado_em": "2026-10-05"
  },
  "geraldoaax/mcp-server-omie": {
   "archived": false,
@@ -385,7 +465,7 @@
   "pushed_at": "2025-07-21",
   "stars": 1,
   "url": "https://github.com/geraldoaax/mcp-server-omie",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "ggCheckout/ggcheckout-mcp": {
   "archived": false,
@@ -395,7 +475,7 @@
   "pushed_at": "2026-09-21",
   "stars": 1,
   "url": "https://github.com/ggCheckout/ggcheckout-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "hebervalverde/mcp-consulta-processual-tjes": {
   "archived": false,
@@ -405,22 +485,27 @@
   "pushed_at": "2026-05-26",
   "stars": 1,
   "url": "https://github.com/hebervalverde/mcp-consulta-processual-tjes",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "https://blog.marfin.co/mcp-model-context-protocol": {
   "http_ok": true,
   "url": "https://blog.marfin.co/mcp-model-context-protocol",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "https://code.claude.com/docs/pt/mcp": {
   "http_ok": true,
   "url": "https://code.claude.com/docs/pt/mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "https://dev.to/arthur_isvi/construindo-um-mcp-server-do-cartola-fc-com-golang-3jih": {
+  "http_ok": true,
+  "url": "https://dev.to/arthur_isvi/construindo-um-mcp-server-do-cartola-fc-com-golang-3jih",
+  "verificado_em": "2026-10-05"
  },
  "https://www.alura.com.br/artigos/model-context-protocol-mcp": {
   "http_ok": true,
   "url": "https://www.alura.com.br/artigos/model-context-protocol-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "joomcode/joompulse-skills": {
   "archived": false,
@@ -430,7 +515,7 @@
   "pushed_at": "2026-09-28",
   "stars": 52,
   "url": "https://github.com/joomcode/joompulse-skills",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "kapstanhq/oficina": {
   "archived": false,
@@ -440,7 +525,17 @@
   "pushed_at": "2026-09-28",
   "stars": 1,
   "url": "https://github.com/kapstanhq/oficina",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "leonardo-amaral-3/mcp-datasus": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": null,
+  "pushed_at": "2026-02-28",
+  "stars": 1,
+  "url": "https://github.com/leonardo-amaral-3/mcp-datasus",
+  "verificado_em": "2026-10-05"
  },
  "leorochasf/mcp-transparencia-municipal": {
   "archived": false,
@@ -450,18 +545,28 @@
   "pushed_at": "2026-09-18",
   "stars": 0,
   "url": "https://github.com/leorochasf/mcp-transparencia-municipal",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "leosepulveda/mcp-vtex": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": "MIT",
+  "pushed_at": "2026-01-02",
+  "stars": 2,
+  "url": "https://github.com/leosepulveda/mcp-vtex",
+  "verificado_em": "2026-10-05"
  },
  "lucaspmgomess/querido-diario-mcp-server": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "MIT",
-  "pushed_at": "2026-09-28",
+  "pushed_at": "2026-10-05",
   "registro_ok": true,
   "stars": 0,
   "url": "https://github.com/lucaspmgomess/querido-diario-mcp-server",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "lucianfialho/mcp-brasil-api": {
   "archived": false,
@@ -471,17 +576,27 @@
   "pushed_at": "2025-06-20",
   "stars": 12,
   "url": "https://github.com/lucianfialho/mcp-brasil-api",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "lucianoon/mcp-dados-br": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "MIT",
-  "pushed_at": "2026-09-23",
+  "pushed_at": "2026-10-01",
   "stars": 2,
   "url": "https://github.com/lucianoon/mcp-dados-br",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "marfin-lab/skills-marfin-cnpj-dossie": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": "MIT",
+  "pushed_at": "2026-05-06",
+  "stars": 1,
+  "url": "https://github.com/marfin-lab/skills-marfin-cnpj-dossie",
+  "verificado_em": "2026-10-05"
  },
  "marioluciofjr/mcp-dados-brasil": {
   "archived": false,
@@ -491,17 +606,37 @@
   "pushed_at": "2026-08-31",
   "stars": 4,
   "url": "https://github.com/marioluciofjr/mcp-dados-brasil",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "matematicsolutions/br-eli-mcp": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "Apache-2.0",
-  "pushed_at": "2026-09-24",
+  "pushed_at": "2026-10-05",
   "stars": 1,
   "url": "https://github.com/matematicsolutions/br-eli-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "mateusthe/mcp-pje-tjpi-2g": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": null,
+  "pushed_at": "2026-06-28",
+  "stars": 2,
+  "url": "https://github.com/mateusthe/mcp-pje-tjpi-2g",
+  "verificado_em": "2026-10-05"
+ },
+ "matheusbuniotto/taco-mcp": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": "MIT",
+  "pushed_at": "2026-05-17",
+  "stars": 1,
+  "url": "https://github.com/matheusbuniotto/taco-mcp",
+  "verificado_em": "2026-10-05"
  },
  "mcp-dir/asaas-mcp": {
   "archived": false,
@@ -509,9 +644,9 @@
   "http_ok": true,
   "license": "MIT",
   "pushed_at": "2026-08-30",
-  "stars": 7,
+  "stars": 5,
   "url": "https://github.com/mcp-dir/asaas-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "mcp-dir/jusbrasil-mcp": {
   "archived": false,
@@ -522,7 +657,7 @@
   "registro_ok": true,
   "stars": 5,
   "url": "https://github.com/mcp-dir/jusbrasil-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "mcp-dir/pagarme-mcp": {
   "archived": false,
@@ -532,7 +667,7 @@
   "pushed_at": "2026-08-30",
   "stars": 0,
   "url": "https://github.com/mcp-dir/pagarme-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "mercadolibre/mercadolibre-mcp-server": {
   "archived": false,
@@ -540,9 +675,9 @@
   "http_ok": true,
   "license": null,
   "pushed_at": "2025-10-01",
-  "stars": 9,
+  "stars": 11,
   "url": "https://github.com/mercadolibre/mercadolibre-mcp-server",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "mercadolibre/mercadopago-mcp-server": {
   "archived": false,
@@ -552,7 +687,17 @@
   "pushed_at": "2025-10-01",
   "stars": 0,
   "url": "https://github.com/mercadolibre/mercadopago-mcp-server",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "pauloFroes/mcp-kiwify": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": null,
+  "pushed_at": "2026-03-29",
+  "stars": 3,
+  "url": "https://github.com/pauloFroes/mcp-kiwify",
+  "verificado_em": "2026-10-05"
  },
  "pipeworx-io/mcp-brazil-pncp": {
   "archived": false,
@@ -563,7 +708,7 @@
   "registro_ok": true,
   "stars": 0,
   "url": "https://github.com/pipeworx-io/mcp-brazil-pncp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "pipeworx-io/mcp-cnpj-br": {
   "archived": false,
@@ -574,7 +719,17 @@
   "registro_ok": true,
   "stars": 0,
   "url": "https://github.com/pipeworx-io/mcp-cnpj-br",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "pipeworx-io/mcp-ibge-br": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": "MIT",
+  "pushed_at": "2026-09-26",
+  "stars": 0,
+  "url": "https://github.com/pipeworx-io/mcp-ibge-br",
+  "verificado_em": "2026-10-05"
  },
  "punkpeye/awesome-mcp-servers": {
   "archived": false,
@@ -582,19 +737,29 @@
   "http_ok": true,
   "license": "MIT",
   "pushed_at": "2026-09-27",
-  "stars": 95644,
+  "stars": 95844,
   "url": "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-pt_BR.md",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "rmohandaspires/mcp-viacep-server": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": null,
+  "pushed_at": "2026-06-23",
+  "stars": 0,
+  "url": "https://github.com/rmohandaspires/mcp-viacep-server",
+  "verificado_em": "2026-10-05"
  },
  "robertoecf/OpenFinData": {
   "archived": false,
   "exists": true,
   "http_ok": true,
   "license": "MIT",
-  "pushed_at": "2026-09-29",
+  "pushed_at": "2026-10-05",
   "stars": 9,
   "url": "https://github.com/robertoecf/OpenFinData",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "robertogecia/tcero-jurisprudencia-mcp": {
   "archived": false,
@@ -604,7 +769,27 @@
   "pushed_at": "2026-09-23",
   "stars": 0,
   "url": "https://github.com/robertogecia/tcero-jurisprudencia-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
+ },
+ "rodrigo-do-carmo/mcp-nota-fiscal": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": null,
+  "pushed_at": "2026-03-26",
+  "stars": 1,
+  "url": "https://github.com/rodrigo-do-carmo/mcp-nota-fiscal",
+  "verificado_em": "2026-10-05"
+ },
+ "ronnyarruda20/spring-ai-mcp-brasil": {
+  "archived": false,
+  "exists": true,
+  "http_ok": true,
+  "license": "MIT",
+  "pushed_at": "2026-09-28",
+  "stars": 0,
+  "url": "https://github.com/ronnyarruda20/spring-ai-mcp-brasil",
+  "verificado_em": "2026-10-05"
  },
  "saviski/nfse-nacional-mcp": {
   "archived": false,
@@ -614,7 +799,7 @@
   "pushed_at": "2026-09-11",
   "stars": 4,
   "url": "https://github.com/saviski/nfse-nacional-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "signdocsbrasil/signdocs-mcp-server": {
   "archived": false,
@@ -624,7 +809,7 @@
   "pushed_at": "2026-09-11",
   "stars": 0,
   "url": "https://github.com/signdocsbrasil/signdocs-mcp-server",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "thaleslaray/hotmart-mcp": {
   "archived": false,
@@ -634,7 +819,7 @@
   "pushed_at": "2026-05-14",
   "stars": 13,
   "url": "https://github.com/thaleslaray/hotmart-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "viniciuslazzari/bolsai-mcp": {
   "archived": false,
@@ -644,7 +829,7 @@
   "pushed_at": "2026-07-07",
   "stars": 1,
   "url": "https://github.com/viniciuslazzari/bolsai-mcp",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "vitorpaimio/mcp-bling": {
   "archived": false,
@@ -654,7 +839,7 @@
   "pushed_at": "2026-08-15",
   "stars": 0,
   "url": "https://github.com/vitorpaimio/mcp-bling",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "wendellbigato/mcp-cep": {
   "archived": false,
@@ -664,7 +849,7 @@
   "pushed_at": "2025-05-08",
   "stars": 3,
   "url": "https://github.com/wendellbigato/mcp-cep",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  },
  "williamoliv/BrazilianSanctionsMCPserver": {
   "archived": false,
@@ -674,6 +859,6 @@
   "pushed_at": "2026-06-22",
   "stars": 1,
   "url": "https://github.com/williamoliv/BrazilianSanctionsMCPserver",
-  "verificado_em": "2026-09-29"
+  "verificado_em": "2026-10-05"
  }
 }
