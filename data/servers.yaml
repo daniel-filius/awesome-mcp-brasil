@@ -264,6 +264,15 @@ servidores:
     registro_oficial: sim
     registro_nome: br.com.brasilnfe/fiscal
 
+  - nome: Brazil AI x402 Suite
+    repo: brunopompeo1/brazil-ai-fiscal-apis-x402
+    url: https://github.com/brunopompeo1/brazil-ai-fiscal-apis-x402
+    descricao: "Suite MCP de 7 APIs brasileiras: auditoria de XML NF-e, boletos, cálculos tributários, CNPJ/PIX e índices do Banco Central; cobrança x402 em USDC na Base."
+    categoria: fiscal
+    pacote: npm
+    exige_chave: sim
+    registro_oficial: nao
+
   # ───────────────────────── Jurídico / Legislativo ─────────────────────────
   - nome: br-eli-mcp
     repo: matematicsolutions/br-eli-mcp
