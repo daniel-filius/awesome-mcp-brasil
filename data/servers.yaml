@@ -207,6 +207,16 @@ servidores:
     exige_chave: sim
     registro_oficial: nao
 
+  - nome: SLDX
+    repo: sldx-api-brasil/sldx-api-examples
+    url: https://api.sldx.com.br/homepage/mcp
+    descricao: Servidor MCP remoto com cotações, dividendos e fundamentos de ações e FIIs da B3, fundos CVM e Selic/IPCA; exige chave.
+    categoria: dados-publicos
+    pacote: remoto
+    exige_chave: sim
+    registro_oficial: sim
+    registro_nome: br.com.sldx/mcp
+
   # ───────────────────────── Fiscal / Tributário ─────────────────────────
   - nome: mcp-fiscal-brasil
     repo: DeHor-Labs/mcp-fiscal-brasil
